@@ -1,15 +1,15 @@
 from setuptools import setup
 
 setup(
-    name="aitextgen",
-    packages=["aitextgen"],  # this must be the same as the name above
-    version="0.5.2",
-    description="A robust Python tool for text-based AI training and generation using GPT-2.",
+    name="ladiv15",
+    packages=["ladiv15"],  # this must be the same as the name above
+    version="1.5.4",
+    description="Fork of aitextgen for me to play with generation length values.",
     long_description=open("README.md", "r", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
-    author="Max Woolf",
-    author_email="max@minimaxir.com",
-    url="https://github.com/minimaxir/aitextgen",
+    author="dootchmann",
+    author_email="josephtan69420@gmail.com",
+    url="https://github.com/dootchmann/ladiv154",
     keywords=["gpt-2", "gpt2", "text generation", "ai"],
     classifiers=[],
     license="MIT",
