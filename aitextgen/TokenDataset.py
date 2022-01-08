@@ -64,7 +64,7 @@ class TokenDataset(Dataset):
         save_cache: bool = False,
         cache_destination: str = "dataset_cache.tar.gz",
         compress: bool = True,
-        block_size: int = 1024,
+        block_size: int = 50000,
         tokenized_texts: bool = False,
         text_delim: str = "\n",
         bos_token: str = "<|endoftext|>",
