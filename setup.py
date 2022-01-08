@@ -13,7 +13,6 @@ setup(
     keywords=["gpt-2", "gpt2", "text generation", "ai"],
     classifiers=[],
     license="MIT",
-    entry_points={"console_scripts": ["aitextgen=aitextgen.cli:aitextgen_cli"]},
     python_requires=">=3.6",
     include_package_data=True,
     install_requires=[
